@@ -12,8 +12,9 @@ This controller plugs directly into my Full-Bridge-Driver board that I use in my
  
  ### Features
  
-  -  Open loop control of output voltage based on input voltage on 50Hz update.  This differs to Poida's code where he uses closed loop control based on feedback of the AC output, on a 100hz basis.  Regulation may not track quite so well but it is simpler and possibly more reliable.
+  -  Open loop control of output voltage based on input (Battery) voltage on 50Hz update.  This differs to Poida's code where he uses closed loop control based on feedback of the AC output, on a 100hz basis.  Regulation may not track quite as well but it is simpler.
   
-  -  Very modular, plugs into my Driver board, which then plugs into as many driver boards and Mosfet boards as desired.
+  -  Forms part of a modular Inverter design, plugs into my Driver board, which then plugs into as many driver boards and Mosfet boards as desired.
   
-  -  
+  -  Individual Momentary Inputs for ON and OFF.
+  -  Bi colour LED to show Run status.
